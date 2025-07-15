@@ -1,0 +1,24 @@
+#professional-services{
+    background: #DBECF3;
+}
+#professional-services .professional-services-title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50.93px;
+}
+#professional-services p{
+    font-weight: 400;
+    font-size: 20px;
+}
+#professional-services .professional-services-subtitle .content-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.1px;
+    color: #0B0B0B;
+}
+#professional-services .professional-services-subtitle p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #4D4D4D;
+}

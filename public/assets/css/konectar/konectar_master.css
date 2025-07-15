@@ -1,0 +1,91 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+#topbar {
+    background-color: #2b9af3;
+    transition: 0.5s ease;
+    
+	color: #fff;
+	font-size:10px;
+}
+.home_btn{
+	padding: 3px 15px;
+	border: 1px solid;
+	color: #fff;
+}
+.phone_num{
+	font-size: 16px !important;
+    cursor: text !important;
+}
+#header {
+    background: #fff;
+    transition: 0.5s ease;
+    z-index: 997;
+    box-shadow: 0 0 8px rgb(0 0 0 / 27%);
+}
+.getDemoBtnMenu{
+	background-color: #f96731; 
+	/* border: 1px solid #f96731; */
+	border-radius: 3px;
+	color: #fff !important;
+	display: inline-block !important;
+	font-family: asap,sans-serif;
+	font-size: 15px;
+	font-weight: bold !important;
+	/* height: 33px; */
+	line-height:29px;
+	margin-right: 0 !important;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.getDemoBtnMenu:HOVER {
+	border: 1px solid #f96731;
+	background-color: #ffffff;
+	color: #f96731 !important;
+	text-decoration: none;
+	
+}
+.oncology_tagline{
+	font-size: 12.5px; 
+	color: black; 
+	margin-left: -1px;
+	text-decoration: none;
+	font-family: asap;
+	line-height: 1.42857143;
+	
+}

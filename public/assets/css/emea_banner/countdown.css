@@ -1,0 +1,202 @@
+html,body {
+  /* background-color: #f2f1ed; */
+  /* margin:0px;
+  padding:0px; */
+  box-sizing: border-box;
+}
+#notification_banner{
+  background: #004784;
+}
+#notification_banner .wrap {
+  /* position: absolute; */
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 80px;
+}
+
+#notification_banner a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+#notification_banner h1 {
+  margin-bottom: 60px;
+  text-align: center;
+  font: 300 2.25em "Lato";
+  text-transform: uppercase;
+}
+#notification_banner h1 strong {
+  font-weight: 400;
+  color: #ea4c4c;
+}
+
+#notification_banner h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font: 300 0.7em "Lato";
+  text-transform: uppercase;
+}
+#notification_banner h2 strong {
+  font-weight: 400;
+}
+
+#notification_banner .countdown {
+  width: auto;
+  margin: 0 auto;
+}
+/*  */
+#notification_banner .countdown .bloc-time {
+  float: left;
+  margin-right: 25px;
+  text-align: center;
+}
+#notification_banner .countdown .bloc-time:last-child {
+  margin-right: 0;
+}
+#notification_banner .countdown .count-title{
+  display: block;
+  margin-bottom: 4px;
+  font: 1.05em "Sans";
+  color: #fff;
+  /* text-transform: uppercase; */
+}
+#notification_banner .tag-line p{
+  display: block;
+  margin-bottom: 8px;
+  font: 1.97em "Sans";
+  color: #fff;
+  text-transform: uppercase;
+}
+#notification_banner .countdown .figure {
+  position: relative;
+  float: left;
+  height: 33px;
+  width: 25px;
+  margin-right: 3px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+}
+#notification_banner .countdown .figure:last-child {
+  margin-right: 0;
+}
+#notification_banner .countdown .figure > span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font: normal 1.2em / 35px "Lato";
+  font-weight: 700;
+  color: #de4848;
+  /* transform: translateZ(0); */
+  /* transition: transform 0.8s ease-in-out;  */
+}
+#notification_banner .countdown .figure .top:after, .countdown .figure .bottom-back:after {
+  /* content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+#notification_banner .countdown .figure .top {
+  z-index: 3;
+  background-color: #ffffff;
+  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-transform: perspective(200px);
+  -ms-transform: perspective(200px);
+  -webkit-transform: perspective(200px);
+  transform: perspective(200px);
+}
+#notification_banner .countdown .figure .bottom {
+  z-index: 1;
+}
+#notification_banner .countdown .figure .bottom:before {
+  /* content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.02); */
+}
+#notification_banner .countdown .figure .bottom-back {
+  z-index: 2;
+  top: 0;
+  height: 60%;
+  overflow: hidden;
+  background-color: #ffffff;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#notification_banner .countdown .figure .bottom-back span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#notification_banner .countdown .figure .top, .countdown .figure .top-back {
+  height: 50%;
+  overflow: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#notification_banner .countdown .figure .top-back {
+  z-index: 4;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -moz-transform: perspective(200px) rotateX(180deg);
+  -ms-transform: perspective(200px) rotateX(180deg);
+  -webkit-transform: perspective(200px) rotateX(180deg);
+  transform: perspective(300px) rotateX(180deg);
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 9px;
+}
+#notification_banner .countdown .figure .top-back span {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#notification_banner .request-demo-btn{
+  background-color: #f96731;
+    border: 1px solid #f96731;
+    border-radius: 3px;
+    color: #fff ;
+    display: inline-block ;
+    font-family: asap, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 25px ;
+    margin-right: 0 ;
+    padding: 9px 20px ;
+}

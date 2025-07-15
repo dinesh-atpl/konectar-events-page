@@ -1,0 +1,332 @@
+/**
+* Aissel Website Konectar CSS
+* Author: Developer
+* License: https://aissel.com/
+*/
+header#konectar-header {
+    position: relative;
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    min-height: 57px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#header-container {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+#konectar-header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.konectar-header-band {
+    background: rgba(0, 0, 0, 0) url(../images/konectar/oncology/konectar_oncology_laptop.jpg) no-repeat scroll;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 500px;
+}
+.konectar-header-block{
+	margin-top:75px;
+}
+.konectar-header-block-text{
+	font-size: 17px;
+    line-height: 26px;
+}
+.konectar-header-block-img{
+	vertical-align: top;
+    margin-top: 2px;
+}
+.konectar-header-block-list{
+	font-size: 12px;
+}
+.wt-backgorund{
+	background-color: #fdfdfd;
+    padding: 4% 3%;
+    border-radius: 10px 0 0 10px;
+}
+#konectar-specialities{
+	background-image: url("../images/konectar/images/20_cns_specialties_bg_new.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding: 20px;
+}
+#konectar-specialities li{
+	font-size: 20px;
+	padding-bottom:18px;
+}
+#konectar-specialities li a{
+	color:#000;
+}
+#konectar-brochure{
+	height:350px;
+	width:100%;
+	background-image: url("../images/konectar/oncology/band_three_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.konectar-experts-header{
+	font-size: 28px;
+	font-weight: bold;
+}
+.konectar-experts-title{
+	font-size: 19px;
+    color: black;
+    line-height: 28px;
+}
+.konectar-experts-title img{
+	vertical-align: top;
+	margin-top:4px;
+}
+.konectar-experts-text{
+	font-size: 14px;
+	line-height: 32px;
+	font-style: italic;
+}
+#konectar-social-band{
+	background-image: url('../images/konectar/oncology/konectar_social_band.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#konectar-social-band{
+	font-size:16px;
+}
+#konectar-social-band .konectar-social-band-img{
+	width:100%;
+}
+.konectar-analytics-title{
+	font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.konectar-analytics-text{
+	color: #000000;
+    font-family: asap,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.konectar-analytics-text span{
+	font-size: 20px !important;
+}
+#konectar-analytics{
+	background-image: url('../images/konectar/images/payments_analytics_bg.png');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#konectar-analytics .content-block .content-block-item .band-image-block img{
+		width: 200px;
+    	height: 190px;
+}
+
+#konectar-discover{
+	background-image: url('../images/konectar/oncology/oncoDiscoverBg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.konectar-discover-header{
+    font-size: 30px;
+    line-height: 40px;
+}
+.konectar-discover-header span{
+    font-size: 30px;
+}
+.konectar-discover-title{
+	color: #1c252e;
+    font-family: asap-bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: center;
+	
+}
+.konectar-discover-description{
+	color: #7f7f7f;
+    font-family: asap,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+#konectar-kol-management{
+	background-image: url('../images/konectar/oncology/whyKonectarBg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color:#fff !important;
+}
+#konectar-kol-management p{
+	line-height: 25px;
+	color: white;
+}
+#konectar-kol-management .konectar-kol-management-header img{
+	width: 150px;
+	height: 27px;
+}
+#konectar-kol-management .konectar-kol-management-block img{
+	width: 60px;
+	height: 60px;
+}
+.konectar-kol-management-text img{
+	vertical-align: top;
+    margin-top: 12px;	
+}
+
+#carousel-slider > .carousel-desktop > .carousel-item{
+	display: flex;
+	position: initial;
+	float: none;
+	margin-right: 0px;
+	width: 50%;
+}
+#carousel-slider .carousel-nav-button{
+	display: none;
+}
+@media (max-width: 767.98px){
+	.wt-backgorund{
+		padding: 15px;
+	}	
+	.konectar-header-band{
+		background:#fff !important;
+		min-height: 100% !important;
+	}
+	.konectar-header-banner {
+		display:block !important;
+	    background: rgba(0, 0, 0, 0) url(../images/mobile/homepage/band1_image.png) no-repeat scroll;
+	    background-size: cover;
+	    width:100%;
+	    height: 230px;
+	}	
+	.konectar-header-block{
+		margin-top:0px !important;
+	}
+	#konectar-specialities li {
+	    font-size: 12px;
+	    padding-bottom: 6px;
+	}
+	.konectar-specialities-list > div{
+		justify-content: start !important;
+	}
+	.konectar-specialities-list > div > ul{
+		padding-left: 0rem !important;
+		margin-bottom: 0;
+	}
+	#konectar-specialities{
+		background: #fff;
+	}
+	#konectar-brochure{
+		background: #f2f7fa;
+		height: 100%;
+	}
+	.konectar-brochure-image img{
+		width:80%;
+	}
+	.konectar-experts-header {
+    	font-size: 18px;
+	}
+	.konectar-experts-title {
+    	font-size: 14px;
+		line-height: 24px;
+	}
+	.konectar-experts-title img {
+	    vertical-align: top;
+	    margin-top: 1px;
+	}
+	.konectar-experts-text {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	#konectar-social-band {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.konectar-social-band-img{
+		margin: auto;
+		padding-top:9px;
+	}
+	.konectar-analytics-title {
+	    font-size: 18px;
+	    line-height: 26px;
+	}
+	.konectar-analytics-text{
+		font-size: 14px;
+	}
+	.konectar-analytics-text span {
+    	font-size: 17px !important;
+	}
+	#konectar-analytics .content-block .content-block-item .band-image-block img{
+		width: 90px;
+    	height: 90px;
+    	margin: auto;
+	}
+	#konectar-analytics .band-title-block .band-title{
+		font-size: 16px;
+	}
+	#konectar-analytics .band-title-block, .band-content {
+	    font-size: 14px;
+    	text-align: left !important;
+	}
+	#konectar-discover .konectar-discover-header {
+	    font-size: 14px;
+	    line-height: 26px;
+	}
+	#konectar-discover .konectar-discover-header span {
+    	font-size: 16px;
+	}
+	.find-influencers img{
+		width:100px;
+		height: 100px;
+		margin: auto;		
+	}
+	.konectar-discover-title{
+		text-align: left !important;
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.konectar-discover-description{
+		text-align: left !important;
+		font-size: 13px;
+	}
+	.konectar-kol-management-text img{
+		margin-top: 1px;
+	}
+	#konectar-kol-management .band-image-block img{
+		margin:auto;
+	}
+	
+	
+	#carousel-slider .konectar-header-block-list{
+	border-radius:5px;	
+	}
+	#carousel-slider .carousel-inner .carousel-item{
+		background: #f4f4f4;
+		height: 90px;
+		padding:0px;
+		text-align: center;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon{
+		width: 1rem;
+	    height: 1rem;
+	}
+	
+	#carousel-slider .konectar-header-block-item-img{
+		display:none !important;
+	}
+	
+	#carousel-slider .konectar-header-block-item-text label{
+	    padding: 10px;
+	    font-size: 18px	
+	}
+	
+	#carousel-slider .konectar-header-block-item-text p{
+	    background: #e4e4e4;
+	    padding: 10px;
+	    font-size: 14px;
+		
+	}
+}

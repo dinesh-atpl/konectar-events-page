@@ -1,0 +1,1358 @@
+*{box-sizing:border-box;margin:0px;padding:0px;font-family:sans-serif;}
+.main-subheader{
+  font-size: 26px;
+}
+/* #section-2 .row,.brochure-section,.background-image4 .row, #section-7 .background-image7 .col-6{
+  --bs-gutter-x: 0rem;
+} */
+
+.background-image{
+  background-image: url("../images/BG_1.svg") !important;
+  background-position-y: -366px;
+  
+}
+.background-image2{
+  background-image: url("../images/bg_2.svg") !important;
+  background-position: left;
+    background-size: 136% 357%;
+    background-repeat: no-repeat;
+  /* background-size:contain;
+  background-position-y: -366px; */
+}
+
+.background-image3 {
+  position: relative; /* Ensure positioning for pseudo-element */
+  overflow: hidden;
+}
+.background-image3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -254px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/BG_1.svg") !important;
+  transform: rotate(116deg);
+  z-index: -1;
+}
+.background-image3{
+  background-image: url("../images/BG_1.svg") !important;
+  /* background-repeat: repeat-y; */
+}
+.sticky-button {
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: right;
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  background: #00A4F4;
+  border-radius: 13px 13px 0px 0px;
+}
+.sticky-button.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* first seciton */
+
+.iStock-background {
+  background-image: url(../images/hero_section.png) !important;
+  background-size: 100vw 80vh;
+  background-repeat: no-repeat;
+}
+#section-1 span {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+#section-1 .header {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  font-family: sans-serif;
+}
+
+#section-1 .sub-header {
+  font-size: 26px;
+  font-family: sans-serif;
+  color: #383838;
+}
+
+#section-1 .cards {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  height: 14rem;
+}
+
+#section-1 .fs-2 {
+  font-size: 24px !important;
+  color: #925843;
+  font-weight: 600;
+}
+
+#section-1 .fs-6 {
+  font-size: 14px !important;
+  color: #925843;
+  font-weight: 400;
+}
+#section-1 .demo-button{
+  font-size:22px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #f96831;
+  font-family: sans-serif;
+}
+/* first seciton */
+
+/* Second Section  */
+#section-2 .fs-1 {
+  font-size: 28px !important;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+/* Third Section */
+.gradient-background {
+  background-image: linear-gradient(to right, #ffffff, #00a4f4);
+  height: 19rem;  
+}
+#section-3 .gradient-background{
+  border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+#section-3 .sub-header {
+  font-size: 29px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-3 .sub-content{
+  font-size: 23px;
+}
+#section-3 .card-headers {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-3 .card-sub-headers {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#section-3 .hcp-icon {
+  position: absolute;
+  bottom: -24%;
+  right: 11%;
+}
+#section-3 .card {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-radius: 15px;
+  background: transparent;
+  height: 17rem;  
+}
+
+#section-3 .card-headers,
+#section-3 .card-sub-headers {
+  transition: color 0.1s ease; 
+}
+
+#section-3 .card:hover {
+  background: #00a4f4;
+  color: white; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#section-3 .card:hover .card-headers, 
+#section-3 .card:hover .card-sub-headers {
+  color: white;
+  transition:  color 0.3s ease, transform 0.3s ease;
+}
+
+#section-3 .card:hover img {
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease;
+}
+/* #section-6 .products-download img{
+  filter: brightness(0) invert(1) !important; 
+  transition: filter 0.3s ease !important;
+} */
+#section-6 .products-download img:hover {
+  filter: brightness(0) invert(1) !important;
+}
+/* Fourth Section */
+/* #section-4 .position-relative{
+  --bs-gutter-x:0rem !important;
+} */
+#section-4  .gradient-background {
+  background-image: linear-gradient(to left, #ffffff, #d26e48);
+  height: 19rem;
+  border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#section-4 .sub-header {
+  font-size: 29px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-4 .sub-content{
+  font-size: 23px;
+}
+#section-4 .card-headers {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-4 .card-sub-headers {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#section-4 .hcp-icon {
+  position: absolute;
+    bottom: -22%;
+    right: 62%;
+}
+#section-4 .card {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-radius: 15px;
+  background: transparent;
+  height: 17rem;
+}
+
+#section-4 .card-headers,
+#section-4 .card-sub-headers {
+  transition: color 0.1s ease; 
+}
+
+#section-4 .card:hover {
+  background: #FA7A4A;
+  color: #fff !important; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#section-4 .card:hover .card-headers,
+#section-4 .card:hover .card-sub-headers {
+  color: #fff !important; 
+}
+
+#section-4 .card:hover img {
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease;
+}
+#section-4 .gradient-background .row{
+  --bs-gutter-x: 0rem;
+}
+/* Fifth Section */
+#section-5 .gradient-background {
+  background-image: linear-gradient(to right, #ffffff, #00a4f4);
+  height: 19rem;
+  border-top-right-radius: 12%;
+  border-bottom-right-radius: 12%;
+}
+#section-5 .sub-header {
+  font-size: 29px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-5 .sub-content{
+  font-size: 23px;
+}
+
+#section-5 .card-headers {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-5 .card-sub-headers {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#section-5 .hcp-icon {
+  position: absolute;
+    bottom: -23%;
+    right: 15%;
+}
+#section-5 .card {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-radius: 15px;
+  background: transparent;
+  height: 17rem;
+}
+
+#section-5 .card-headers,
+#section-5 .card-sub-headers {
+  transition: color 0.1s ease; 
+}
+
+#section-5 .card:hover {
+  background: #00a4f4;
+  color: white; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#section-5 .card:hover .card-headers, 
+#section-5 .card:hover .card-sub-headers {
+  color: white;
+  transition:  color 0.3s ease, transform 0.3s ease;
+}
+
+#section-5 .card:hover img.network-img{
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease;
+}
+#section-5 .card:hover img.default-img {
+  content: url('/assets/images/Fifth Section/network-maps-hover.svg');
+}
+
+/* Sixth Section */
+
+#section-6 .gradient-background {
+  background-image: linear-gradient(to left, #ffffff, #d26e48);
+  height: 19rem;
+}
+#section-6 .sub-header {
+  font-size: 26px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-6 .sub-content{
+  font-size: 22px;
+}
+#section-6 .card-headers {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#section-6 .card-sub-headers {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#section-6 .hcp-icon {
+  position: absolute;
+  bottom: -23%;
+  right: 63%;
+}
+#section-6 .fs-2 {
+ font-size: 24px;
+ font-weight: 600;
+}
+
+#section-6 .download-btn{
+  border: none;
+  background:#F96831;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.social-txt{
+  font-family: sans-serif;
+}
+#section-6 .image-div {
+  position: absolute;
+  top: 77%;
+  right: 8%;
+  font-family: sans-serif;
+}
+#section-6 .card {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  height: 19rem;
+  background: transparent;
+  border-radius: 15px;
+}
+#section-6 .products-download {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 4px 15px;
+  font-family: sans-serif;
+}
+#section-6 .brochure-section{
+  margin-top:3rem;
+  border-radius: 20px;
+}
+#section-6 .card-body,#section-5 .card-body{
+  height: 17vw;
+}
+#section-6 .card-headers,
+#section-6 .card-sub-headers {
+  transition: color 0.1s ease; }
+
+#section-6 .card:hover {
+  background: #FA7A4A;
+  color: white; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#section-6 .card:hover .card-headers, 
+#section-6 .card:hover .card-sub-headers {
+  color: white;
+  transition:  color 0.3s ease, transform 0.3s ease;
+}
+
+#section-6 .card:hover img.default-img {
+  content: url('/assets/images/Sixth_Section/Track_hover.svg');
+}
+#section-6 .card:hover img.track-img {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.brochure-section .products-download:hover img{
+  filter: brightness(0) invert(1) !important;
+  transition: filter 0.3s ease;
+}
+#section-6 .image-div img:hover {
+  cursor: pointer;
+}
+/* Seventh Section */
+.background-image7 {
+  background-image: url(../images/Seventh_Section/bg1.svg) !important;
+  background-position-y: -112px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #e8f0f2;
+}
+.background-image4 {
+  background-image: url(../images/Seventh_Section/bg.svg) !important; 
+  background-size: contain;
+  background-position-x: right;
+}
+#section-7 .header{
+  font-weight: 600;
+  font-size: 28px;
+}
+#section-7 .image-header{
+  font-weight: 700;
+  font-size: 18px;
+}
+#section-7 .image-info{
+  font-weight: 400;
+  font-size: 14px;
+  color: #535353;
+}
+#section-7 .istock-header{
+  font-weight: 700;
+  font-size: 30px;
+}
+#section-7 .istock-info{
+  font-weight: 400;
+  font-size: 20px;
+  color: #535353;
+}
+#section-7 .demo-button {
+  background-color: #f96831;
+  font-weight: 700;
+  font-family: 22px;
+  border-radius: 15px;
+}
+.shadow {
+  position: relative;
+  width: 200px;
+  height: 12px;
+  background: rgb(57 54 54 / 25%);
+  border-radius: 50%;
+  top: 67px;
+  left: 4%;
+  transform: translateX(-50%);
+  animation: shadow-bounce 2s infinite;
+}
+.bouncing-image {
+  animation: bounce 2s infinite;
+  position: relative;
+  top: 47px;
+  right: 19px;
+}
+.demo-button:hover {
+  background-color: #fff !important;
+  color: #f96831 !important; 
+  border: 1px solid #f96731 !important;
+}
+#section-6 .gradient-background {
+  background-image: linear-gradient(to left, #ffffff, #d26e48);
+  height: 19rem;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+#section-1 span {
+    font-size: 25px;
+}
+.main-subheader {
+  font-size: 21px;
+}
+#section-1 .fs-2 {
+  font-size: 20px !important;
+}
+#section-1 .fs-6 {
+  font-size: 10.5px !important;
+}
+.iStock-background {
+  background-size: 100vw 73vh;
+}
+#section-1 .demo-button {
+  font-size: 18px;
+  padding:10px 6px !important;
+}
+#section-3 .sub-header {
+  font-size: 20px;
+}
+#section-3 .sub-content {
+  font-size: 19px;
+}
+#section-4 .sub-header {
+  font-size: 23px;
+}
+#section-4 .sub-content {
+  font-size: 20px;
+}
+#section-4 .hcp-icon {
+  right: 53%;
+}
+#section-5 .hcp-icon {
+  right: 7%;
+}
+#section-5 .sub-header {
+  font-size: 19px;
+}
+#section-5 .sub-content {
+  font-size: 19px;
+}
+#section-6 .sub-header {
+  font-size: 22px;
+}
+#section-6 .sub-content {
+  font-size: 20px;
+}
+#section-6 .hcp-icon {
+  right: 52%;
+}
+#section-3 .card {
+  height: 22rem;
+}
+#section-4 .card {
+  height: 22rem;
+}
+#section-5 .card {
+  height: 21rem;
+}
+#section-6 .card {
+  height: 22rem;
+}
+.kon-social h4{
+  font-size: 1.2rem !important;
+}
+#section-6 .products-download {
+  font-size: 0.65rem;
+}
+#section-6 .image-div {  
+  right: 2%;
+}
+
+.background-image7 { 
+  background-position-y: 289px;  
+  background-color: #e8f0f2;
+}
+#section-7 .frame-img{
+  margin-bottom: 9rem;
+}
+#section-7 .istock-header {
+  font-size: 23px;
+}
+#section-7 .istock-info { 
+  font-size: 16px; 
+}
+}
+@media (max-width:1024px) and (min-width:768px) and (orientation:portrait) {
+  .modal-dialog {
+    max-width: 80%;
+  }
+  .iStock-background {
+    background-size: 106vw 43vh;
+}
+#section-1 span {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+#section-1 .main-subheader {
+  font-size: 18px;
+}
+#section-1 .fs-2 {
+  font-size: 16px !important;
+}
+#section-1 .demo-button {
+  font-size: 18px;
+  padding:10px 6px !important;
+}
+#section-1 .fs-6 {
+  font-size: 10px !important;
+}
+#section-1 .cards {
+  height: 11rem;
+}
+#section-1 .konectar-logo-img{
+  width:8rem;
+}
+#section-2 .fs-1 {
+  font-size: 21px !important;
+}
+.gradient-background {
+  height: 14rem !important;
+}
+#section-3 .sub-header {
+  font-size: 18px;
+}
+#section-3 .sub-content {
+  font-size: 16px;
+}
+#section-3 .hcp-icon {
+  bottom: -14%;
+  right: 10%;
+  width: 19rem;
+}
+#section-3 .card {
+  height: 19rem;
+}
+#section-3 .card-headers, #section-4 .card-headers,#section-5 .card-headers,#section-6 .card-headers{
+  font-size: 15px;
+}
+#section-3 .card-sub-headers,#section-4 .card-sub-headers,#section-5 .card-sub-headers,#section-6 .card-sub-headers {
+  font-size: 13px;
+}
+#section-4 .hcp-icon {  
+  width: 19rem;
+  bottom: -18%;
+  right: 55%;
+}
+#section-4 .sub-header{
+  font-size: 16px;
+}
+#section-4 .sub-content{
+  font-size: 14px;
+}
+#section-4 .card {
+  height: 19rem;
+}
+#section-5 .hcp-icon {
+  bottom: -15%;
+  right: 11%;
+  width: 18rem;
+}
+#section-5 .sub-content{
+  font-size: 16px;
+}
+#section-5 .sub-header{
+  font-size: 17px;
+}
+#section-5 .card {
+  height: 19rem;
+}
+#section-6 .sub-header {
+  font-size: 17px;
+}
+#section-6 .sub-content{
+  font-size: 16px;
+}
+#section-6 .hcp-icon {
+  bottom: -20%;
+  right: 59%;
+  width: 20rem;
+}
+#section-6 .card {
+  height: 19rem;
+}
+.kon-social h4{
+  font-size: 0.79rem;
+}
+#section-6 .image-div {
+  position: absolute;
+  top: 80%;
+  right: 4%;
+  font-family: sans-serif;
+}
+.image-div img{
+  width: 60%;
+}
+#section-6 .products-download {
+  font-size: 0.87rem;
+}
+#section-7 .header {
+  font-weight: 600;
+  font-size: 17px;
+}
+#section-7 .background-image7 {
+  background-image: url(../images/Seventh_Section/bg1.svg) !important;
+  background-position-y: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(232 240 242);
+}
+#section-7 .image-header {
+  font-weight: 700;
+  font-size: 13px;
+}
+#section-7 .istock-header {
+  font-weight: 700;
+  font-size: 21px;
+}
+#section-7 .istock-info {
+  font-weight: 400;
+  font-size: 14px;
+  color: #535353;
+}
+}
+@media (max-width:767px) and (orientation:portrait){
+  /* body{
+    background-color: yellow;
+  }
+  #section-1 span {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  .iStock-background{
+    margin-top: 13%;
+  }
+  .iStock-background .kon_logo_img img{
+    width: 28%;
+  }
+  .iStock-background {
+    background-size: 100vw 28vh;
+  }
+  .main-subheader {
+    font-size: 16px;
+  }
+  .mobile-mt{
+    margin-top: 12rem;
+  }
+  #section-1 .fs-6 {
+    font-size: 15px !important;   
+  }
+  #section-1 .fs-2 {
+    font-size: 21px !important;
+  }
+  #section-1 .demo-button {
+    font-size: 20px;
+  }
+  #section-2 .fs-1 {
+    font-size: 18px !important;
+  }
+  
+  #section-3 .hcp-icon{
+    width:46%;
+  }
+  .gradient-background {
+    height: 10rem;
+}
+#section-3 .hcp-icon {
+  position: absolute;
+  bottom: -11%;
+  right: 4%;
+}
+#section-3 .sub-header {
+  font-size: 10px;
+}
+#section-3 .sub-content {
+  font-size: 10px;
+}
+#section-3 .card-headers {
+  font-size: 18px;
+}
+#section-3 .card-sub-headers {
+  font-size: 14px;
+}
+#section-3 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-4 .gradient-background {
+  height: 9rem !important;
+}
+#section-4 .sub-header {
+  font-size: 12px;
+}
+#section-4 .sub-content {
+  font-size: 10px;
+}
+#section-4 .hcp-icon{
+  width:43%;
+}
+#section-4 .hcp-icon {
+  position: absolute;
+  bottom: -11%;
+  right: 54%;
+}
+#section-4 .card-headers {
+  font-size: 18px;
+}
+#section-4 .card-sub-headers {
+  font-size: 14px;
+}
+#section-4 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-5 .hcp-icon{
+  width:46%;
+}
+#section-5 .gradient-background{
+  height: 10rem;
+}
+#section-5 .hcp-icon {
+  position: absolute;
+  bottom: -11%;
+  right: 3%;
+}
+#section-5 .sub-header {
+  font-size: 10px;
+}
+#section-5 .sub-content {
+  font-size: 10px;
+}
+#section-5 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-6 .gradient-background {
+  height: 9rem !important;
+}
+#section-6 .sub-header {
+  font-size: 12px;
+}
+#section-6 .sub-content {
+  font-size: 10px;
+}
+#section-6 .hcp-icon{
+  width:43%;
+}
+#section-6 .hcp-icon {
+  position: absolute;
+  bottom: -8%;
+  right: 57%;
+}
+#section-6 .card-headers {
+  font-size: 18px;
+}
+#section-6 .card-sub-headers {
+  font-size: 14px;
+}
+#section-6 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+.kon-social h4{
+  font-size: 0.95rem;
+  text-align: center;
+}
+#section-6 .products-download {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 15px;
+  font-family: sans-serif;
+}
+#section-6 .brochure-section {
+  margin-top: 3rem;
+  border-radius: 20px;
+  margin-bottom: 9rem;
+}
+#section-6 .image-div {
+  top: 87%;
+  right: 14%;
+}
+#section-6 .image-div img{
+ 
+}
+#section-7 .header {
+  font-weight: 600;
+  font-size: 16px;
+}
+#section-7 .image-header {
+  font-weight: 700;
+  font-size: 14px;
+}
+#section-7 .image-info {
+  font-weight: 400;
+  font-size: 12px;
+  color: #535353;
+}
+#section-7 .frame-img{
+  margin-bottom:10px;
+}
+#section-7 .istock-header {
+  font-size: 20px;
+}
+#section-7 .istock-info {
+  font-size: 15px;
+} */
+}
+@media (min-width: 767px) and (max-width: 900px) and (orientation: landscape) {
+  /* Mobile landscape styles */
+  .iStock-background{
+    /* margin-top: 4%; */
+  }
+  #section-1 .sub-header {
+    font-size: 22px;
+  }
+  #section-6 .image-div img{  
+    width: 55%;
+  }
+  .iStock-background .kon_logo_img img{
+    width: 28%;
+  }
+  #section-1 span {
+    font-size: 23px;
+  }
+  .main-subheader {
+    font-size: 15px;
+  }
+  .iStock-background {
+    background-size: 96vw 110vh;
+}
+#section-1 .cards {
+  height: 11rem;
+}
+#section-1 .fs-2 {
+  font-size: 15px !important;
+}
+#section-2 .fs-1 {
+  font-size: 17px !important;
+}
+
+#section-3 .sub-header {
+  font-size: 10px;
+}
+#section-3 .sub-content {
+  font-size: 10px;
+}
+#section-3 .hcp-icon{
+  width:33%;
+}
+.gradient-background {
+  height: 12rem;
+}
+#section-3 .hcp-icon {
+  position: absolute;
+  bottom: -15%;
+  right: 15%;
+}
+#section-3 .sub-header {
+font-size: 18px;
+}
+#section-3 .sub-content {
+font-size: 15px;
+}
+#section-3 .card-headers {
+  font-size: 18px;
+}
+#section-3 .card-sub-headers {
+  font-size: 14px;
+}
+#section-4 .sub-header {
+  font-size: 12px;
+}
+#section-4 .gradient-background {
+  height: 14rem !important;
+}
+#section-4 .hcp-icon{
+  width:36%;
+}
+#section-4 .sub-header {
+  font-size: 18px;
+}
+#section-4 .sub-content {
+  font-size: 16px;
+}
+#section-4 .hcp-icon {
+  position: absolute;
+  bottom: -14%;
+  right: 57%;
+}
+#section-4 .card-headers {
+  font-size: 18px;
+}
+#section-4 .card-sub-headers {
+  font-size: 14px;
+}
+#section-5 .sub-header {
+  font-size: 10px;
+}
+#section-5 .sub-content {
+  font-size: 10px;
+}
+#section-5 .hcp-icon{
+  width:33%;
+}
+#section-5 .sub-header {
+  font-size: 18px;
+  }
+  #section-5 .sub-content {
+  font-size: 16px;
+  }
+  #section-5 .gradient-background {
+    height: 14rem !important;
+  }
+  #section-5 .hcp-icon {
+    position: absolute;
+    bottom: -7%;
+    right: 11%;
+  }
+  #section-5 .card-headers {
+    font-size: 18px;
+  }
+  #section-5 .card-sub-headers {
+    font-size: 14px;
+  }
+  #section-6 .sub-header {
+    font-size: 12px;
+  }
+  #section-6 .gradient-background {
+    height: 14rem !important;
+  }
+  #section-6 .hcp-icon{
+    width:36%;
+  }
+  #section-6 .sub-header {
+    font-size: 18px;
+  }
+  #section-6 .sub-content {
+    font-size: 16px;
+  }
+  #section-6 .hcp-icon {
+    position: absolute;
+    bottom: -14%;
+    right: 59%;
+  }
+  #section-6 .card-headers {
+    font-size: 18px;
+  }
+  #section-6 .card-sub-headers {
+    font-size: 14px;
+  }
+  .kon-social h4{
+    font-size: 0.85rem !important;
+  }
+  #section-6 .products-download {
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 4px 15px;
+    font-family: sans-serif;
+  }
+  #section-7 .istock-header {
+    font-size: 18px;
+  }
+  #section-6 .image-div {
+    position: absolute;
+    top: 81%;
+    right: 8%;
+    font-family: sans-serif;
+}
+}
+@media (max-width: 575.98px) and (orientation: portrait) {
+  /* Styles for extra small devices in portrait mode */
+  .iStock-background{
+    margin-top: 3rem;
+  }
+  #section-1 span {
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .main-subheader {
+    font-size: 14px;
+  }
+  .iStock-background {
+    background-size: 100vw 25vh;
+  }
+  .mobile-mt{
+    margin-top: 12rem;
+  }
+  .iStock-background .kon_logo_img img{
+    width: 28%;
+  }
+  #section-1 .fs-6 {
+    font-size: 15px !important;   
+  }
+  #section-1 .fs-2 {
+    font-size: 21px !important;
+  }
+  #section-1 .demo-button {
+    font-size: 20px;
+  }
+  #section-2 .fs-1 {
+    font-size: 18px !important;
+  }
+  
+  #section-3 .hcp-icon{
+    width:46%;
+  }
+  .gradient-background {
+    height: 10rem;
+}
+#section-3 .hcp-icon {
+  position: absolute;
+  bottom: -5%;
+  right: 0%;
+}
+#section-3 .sub-header {
+  font-size: 10px;
+}
+#section-3 .sub-content {
+  font-size: 10px;
+}
+#section-3 .card-headers {
+  font-size: 18px;
+}
+#section-3 .card-sub-headers {
+  font-size: 14px;
+}
+#section-3 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-4 .gradient-background {
+  height: 9rem !important;
+}
+#section-4 .sub-header {
+  font-size: 9px;
+}
+#section-4 .sub-content {
+  font-size: 9px;
+}
+#section-4 .hcp-icon{
+  width:43%;
+}
+#section-4 .hcp-icon {
+  position: absolute;
+  bottom: -11%;
+  right: 54%;
+}
+#section-4 .card-headers {
+  font-size: 18px;
+}
+#section-4 .card-sub-headers {
+  font-size: 14px;
+}
+#section-4 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-5 .hcp-icon{
+  width:46%;
+}
+#section-5 .gradient-background{
+  height: 10rem;
+}
+#section-5 .hcp-icon {
+  position: absolute;
+  bottom: -11%;
+  right: 3%;
+}
+#section-5 .sub-header {
+  font-size: 10px;
+}
+#section-5 .sub-content {
+  font-size: 10px;
+}
+#section-5 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+#section-6 .gradient-background {
+  height: 9rem !important;
+}
+#section-6 .sub-header {
+  font-size: 12px;
+}
+#section-6 .sub-content {
+  font-size: 10px;
+}
+#section-6 .hcp-icon{
+  width:43%;
+}
+#section-6 .hcp-icon {
+  position: absolute;
+  bottom: -8%;
+  right: 57%;
+}
+#section-6 .card-headers {
+  font-size: 18px;
+}
+#section-6 .card-sub-headers {
+  font-size: 14px;
+}
+#section-6 .card {
+  margin-bottom:13px;
+  height: 16rem;
+}
+.kon-social h4{
+  font-size: 0.95rem;
+  text-align: center;
+}
+#section-6 .products-download {
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 4px 15px;
+  font-family: sans-serif;
+}
+#section-6 .brochure-section {
+  margin-top: 3rem;
+  border-radius: 20px;
+  margin-bottom: 9rem;
+}
+#section-6 .image-div {
+  top: 87%;
+  right: 14%;
+}
+#section-6 .image-div img{
+  width:90%;
+}
+
+#section-7 .header {
+  font-weight: 600;
+  font-size: 16px;
+}
+#section-7 .image-header {
+  font-weight: 700;
+  font-size: 14px;
+}
+#section-7 .image-info {
+  font-weight: 400;
+  font-size: 12px;
+  color: #535353;
+}
+#section-7 .frame-img{
+  margin-bottom:10px;
+}
+.bouncing-img{
+  width:55%;
+}
+#section-7 .istock-header {
+  font-size: 20px;
+}
+#section-7 .istock-info {
+  font-size: 15px;
+} 
+}
+@media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
+  /* Styles for small devices in portrait mode */
+  
+  .iStock-background{
+    margin-top: 8%;
+  }
+  .iStock-background {
+    background-size: 100vw 91vh;
+}
+.kon_logo_img img{
+  width: 30%;
+}
+#section-1 span {
+  font-size: 21px;
+}
+.main-subheader {
+  font-size: 18px;
+}
+
+}
+@media (max-width: 575.98px) and (orientation: landscape) {
+  #section-6 .image-div img{
+    width:45%;
+  }
+  /* Styles for extra small devices in landscape mode */
+}
+@media (min-width: 576px) and (max-width: 767.98px) and (orientation: landscape) {
+  #section-6 .image-div img{
+    width:45%;
+  }
+  /* Styles for small devices in landscape mode */
+}
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: portrait) {
+  #section-6 .image-div img{
+    width:45%;
+  }
+  /* Styles for medium devices in portrait mode */
+}
+@media (max-width:428px) and (orientation:portrait){ 
+ 
+
+}
+@media (max-width: 575.98px) and (orientation: landscape){ 
+  
+  
+  
+}
+@media (min-width: 992px) and (max-width: 1199.98px) and (orientation: portrait) {
+  /* Styles for large devices in portrait mode */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) and (orientation: landscape) {
+  /* Styles for large devices in landscape mode */
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) and (orientation: portrait) {
+  /* Styles for extra large devices in portrait mode */
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) and (orientation: landscape) {
+  /* Styles for extra large devices in landscape mode */
+}
+@media (min-width: 1400px) and (orientation: portrait) {
+  /* Styles for ultra-wide devices in portrait mode */
+}
+@media (min-width: 1400px) and (orientation: landscape) {
+  /* Styles for ultra-wide devices in landscape mode */
+}
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-50px);
+  }
+}
+@keyframes shadow-bounce {
+  0%, 100% {
+      transform: scale(1);
+      opacity: 0.5;
+  }
+  50% {
+      transform: scale(0.7);
+      opacity: 0.3;
+  }
+}
