@@ -890,7 +890,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     .hero-section > .row {
         position: absolute;
         top: 14%;
-        left: 2%;
+        left: 1%;
     }
     .hero-section > .row h2 {
         font-size: 22px;
