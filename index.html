@@ -45,7 +45,7 @@
         }
 
         .events-carousel-details .swiper-slide img {
-            width: 70%;
+            width: 110%;
         }
     </style>
 
@@ -233,17 +233,17 @@
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-1.png" alt="" class="img-fluid carousel-img">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-2.png" alt="" class="img-fluid carousel-img">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-3.png" alt="" class="img-fluid carousel-img">
                                 </div>
@@ -254,17 +254,17 @@
                     <!-- Slide 2 -->
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-4.png" alt="" class="img-fluid carousel-img">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-5.png" alt="" class="img-fluid carousel-img">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <div class="card-box">
                                     <img src="/images/carousel-6.png" alt="" class="img-fluid carousel-img">
                                 </div>
@@ -295,10 +295,10 @@
     </div>
     <div id="events-process-section" class="container d-none d-sm-none d-md-block">
         <div class="row">
-            <div class="col-lg-4 col-md-12 laptop-box">
+            <div class="col-lg-4 col-md-4 laptop-box">
                 <img src="/images/laptop.png" alt="laptop" class="img-fluid laptop-img">
             </div>
-            <div class="col-lg-8 col-md-12 event-process-box">
+            <div class="col-lg-8 col-md-8 event-process-box">
                 <div>
                     <h2>Explore What’s Possible with konectar Events</h2>
                     <div class="head-line"></div>
@@ -455,7 +455,7 @@
                 </div>
 
                 <!-- Bottom Left Image -->
-                <div class="col-lg-5 col-md-12 text-center">
+                <div class="col-lg-5 col-md-12 order-lg-1 order-md-2 text-center">
                     <div class="images-container">
                         <img src="/images/events-set21.png" alt="Front" class="image front">
                         <img src="/images/events-set22.png" alt="Back" class="image back">
@@ -464,7 +464,7 @@
                 </div>
 
                 <!-- Right Info Block -->
-                <div class="col-lg-7 col-md-12 events-engagement-box">
+                <div class="col-lg-7 col-md-12 order-lg-2 order-md-1 events-engagement-box">
                     <div class="events-engagement-content">
                         <div class="mb-4">
                             <h4>Seamless Team Collaboration</h4>
@@ -664,8 +664,9 @@
     </script>
     <script>
         var swiper = new Swiper(".events-carousel-swiper", {
-            slidesPerView: "auto",
+            slidesPerView: 2,
             spaceBetween: 30,
+            centeredSlides: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
