@@ -403,9 +403,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     border-radius: 12px;
 }
 
-#resources-section .resource-box .p-tag {
-    padding-left: 19px;
-}
+
 
 #resources-section .resource-box p {
     font-size: 18px;
@@ -992,5 +990,30 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     }
     .growth-section-right {
         padding-left: 0px;
+    }
+}
+
+@media (min-width: 993px) {
+    .p-tag {
+        position: relative;
+    }
+
+    .p-tag p {
+        position: absolute;
+        top: 11%;
+    }
+
+    .p-tag .res-button {
+        position: absolute;
+        top: 57%;
+    }
+
+    .p-tag .contact {
+        position: absolute;
+        top: 71%;
+    }
+
+    #resources-section .resource-box .p-tag {
+        padding-left: 19px;
     }
 }

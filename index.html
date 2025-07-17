@@ -580,7 +580,7 @@
         <div class="row g-4">
             <!-- Left Column -->
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="resource-box d-flex flex-column flex-md-row align-items-center h-100">
+                <div class="resource-box d-flex flex-column flex-md-row h-100">
                     <div class="col-md-6 col-8 p-tag">
                         <p class="d-none d-sm-none d-lg-block">
                             Read our case study to discover how konectar Events can streamline your event participation
@@ -588,12 +588,13 @@
                         </p>
                         <p class="d-block d-sm-block d-lg-none">How konectar Helped a Pharma Company Optimize KOL
                             Management</p>
-                        <a class="btn orange-button resource-download atplDemoBtn" id="downloadPaper"
+                        <a class="btn res-button orange-button resource-download atplDemoBtn" id="downloadPaper"
                             data-bs-toggle="modal" data-bs-target="#resourcesModal" onclick="dowloadArticle();"
                             role="button">
                             Download<img class="ps-2 img-fluid" src="/images/download.svg" alt="Download Button"> </a>
                     </div>
-                    <div class="col-md-6 col-4 text-center text-md-end mt-3 mt-md-0 resource-image">
+                    <div
+                        class="col-md-6 col-4 text-center d-flex align-items-center justify-content-end text-md-end mt-3 mt-md-0 resource-image">
                         <img src="/images/resources_kol_impact.png" alt="resource_image" class="img-fluid">
                     </div>
                 </div>
@@ -601,7 +602,7 @@
 
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="events-app-box d-flex flex-column flex-md-row align-items-center h-100">
+                <div class="events-app-box d-flex flex-column flex-md-row h-100">
                     <div class="col-md-6 col-8 p-tag">
                         <p class="d-none d-sm-none d-lg-block desc">
                             konectar Medical Events is now available for download on both the App Store and Google Play
@@ -610,9 +611,13 @@
                         <p class="d-block d-sm-block d-lg-none desc-mobile">konectar Medical Events is now available for
                             download on
                             both the App Store and Google Play Store!</p>
-                        <a class="contact-us-button btn btn-outline-primary mt-2" role="button">Contact Us</a>
-                        <p class="d-none d-sm-none d-md-block contact">Contact our customer support to learn more about
-                            konectar Events.</p>
+                        <div>
+                            <a class="res-button contact-us-button btn btn-outline-primary mt-2" role="button">Contact
+                                Us</a>
+                            <p class="d-none d-sm-none d-md-block contact">Contact our customer support to learn more
+                                about
+                                konectar Events.</p>
+                        </div>
                     </div>
                     <div class="col-md-6 col-4 text-center text-md-end mt-3 mt-md-0 resource-event-image">
                         <img src="/images/events-app-image.png" alt="resource_event_image" class="img-fluid "
