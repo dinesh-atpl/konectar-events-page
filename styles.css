@@ -244,6 +244,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
 
 #events-process-section .content{
     margin-top: 15px;
+    align-items: stretch !important;
 }
 #events-process-section .content .content-info{
     margin-left: 20px;
@@ -379,6 +380,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
 
 #resources-section {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #resources-section .resource-box {
@@ -386,11 +388,15 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #FFEDE6;
+    /* background-color: #FFEDE6; */
 
     padding: 30px 10px 30px 10px;
     box-shadow: 0px 4px 4px 0px #00000040;
     border-radius: 12px;
+}
+
+#resources-section .resource-box .p-tag {
+    padding-left: 19px;
 }
 
 #resources-section .resource-box p {
@@ -420,29 +426,47 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     content: url("/images/download_hover.svg");
 }
 
-.events-app-box {
+#resources-section .events-app-box {
     background-image: url('images/events-app-sec-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #E6F7FF;
+    /* background-color: #E6F7FF; */
 
     padding: 30px 10px;
     box-shadow: 0px 4px 4px 0px #00000040;
     border-radius: 12px;
+    overflow: hidden;
 }
 
+#resources-section .events-app-box .resource-event-image img {
+    /* max-width: 58% !important; */
+    -webkit-box-reflect: below -18px linear-gradient(transparent, rgba(0, 0, 0, 0.3))
+}
 
-.events-app-box p {
+#resources-section .events-app-box .p-tag{
+        margin-top: 42px;
+        padding-left: 19px;
+    }
+
+
+#resources-section .events-app-box .desc {
     font-size: 18px;
     font-weight: 400;
 }
 
-.events-app-box .contact-us-button {
+#resources-section .events-app-box .contact {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+    margin-top: 50px;
+}
+
+#resources-section .events-app-box .contact-us-button {
     border-radius: 8px;
     color: white;
     background-color: #2C83AB;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     font-size: 20px;
 }
 
@@ -598,7 +622,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     .images-container {
         position: relative;
         width: 92%;
-        padding-top: 75%;
+        padding-top: 335px;
         max-width: 436px;
         margin: auto;
         top: 71px;
@@ -859,7 +883,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
         padding-bottom: 15px !important;
     }
 
-    #resources-section .events-app-box p {
+    #resources-section .events-app-box .desc {
         font-size: 14px;
         font-weight: 400;
         margin-bottom: 10px !important;
@@ -867,12 +891,9 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     }
 
     #resources-section .events-app-box .resource-event-image {
-        margin-top: 0px !important;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
         max-width: 58%;
-    }
-
-    #resources-section .events-app-box .resource-event-image img {
-        /* max-width: 58% !important; */
     }
 
     #resources-section .events-app-box .contact-us-button {
@@ -883,6 +904,17 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
         font-size: 12px;
     }
 
+    #resources-section .events-app-box .p-tag {
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+
+    #resources-section .events-app-box .desc-mobile {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 100% !important;
+        margin-bottom: 5px !important;
+    }
     
 }
 
@@ -910,6 +942,11 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
         top: -28px;
         left: 31px;
         width: 78%;
+    }
+
+    #resources-section .events-app-box .resource-event-image {
+        margin-top: auto !important;
+        margin-bottom: auto !important;
     }
 }
 
