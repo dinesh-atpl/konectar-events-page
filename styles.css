@@ -196,10 +196,18 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
     color: #3B3B3B;
 }
 
+.color-background {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #events-process-section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-right: 0px !important;
+    
 }
 
 #events-process-section .event-process-box {
@@ -445,7 +453,7 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
 }
 
 #resources-section .events-app-box .p-tag{
-        margin-top: 42px;
+        /* margin-top: 42px; */
         padding-left: 19px;
     }
 
