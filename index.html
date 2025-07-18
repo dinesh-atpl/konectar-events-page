@@ -82,7 +82,7 @@
             <a href="/get-demo" class="orange-button get-demo-button-mobile gAnalytics_getADemoBtn">Request a
                 Demo</a>
         </div>
-        <img src="/images/hero-image-mobile.png" alt="hero-img-mobile">
+        <img src="/images/hero-image-mobile.jpg" alt="hero-img-mobile">
     </div>
 
     <div class="gray-carousel-background-section d-block d-sm-block d-md-none">
@@ -128,7 +128,7 @@
         <div id="events-process-mobile-section">
             <div class="row">
                 <div class="col-6 text-center">
-                    <img src="/images/laptop-mobile.png" alt="laptop-mobile">
+                    <img src="/images/laptop-mobile.png" alt="laptop-mobile" style="width: 100%;">
                 </div>
                 <div class="col-6 event-process-heading">
                     <h4>Explore What’s Possible with konectar Events</h4>
@@ -462,7 +462,7 @@
                         <img src="/images/events-set11.png" alt="Front" class="image front">
                         <img src="/images/events-set12.png" alt="Back" class="image back">
                     </div>
-                    <p class="hover-message">* Hover on the images to view all</p>
+                    <p class="hover-message">* Click to view the next screen.</p>
                 </div>
 
                 <!-- Bottom Left Image -->
@@ -471,7 +471,7 @@
                         <img src="/images/events-set21.png" alt="Front" class="image front">
                         <img src="/images/events-set22.png" alt="Back" class="image back">
                     </div>
-                    <p class="hover-message">* Hover on the images to view all</p>
+                    <p class="hover-message">* Click to view the next screen.</p>
                 </div>
 
                 <!-- Right Info Block -->
@@ -519,7 +519,7 @@
                             <img src="/images/events-set11.png" alt="Front" class="image front">
                             <img src="/images/events-set12.png" alt="Back" class="image back">
                         </div>
-                        <p class="hover-message">* Press on the images to swipe</p>
+                        <p class="hover-message">* Click to view the next screen.</p>
                     </div>
                     <div class="swiper-slide text-center">
                         <div class="events-engagement-content">
@@ -533,7 +533,7 @@
                             <img src="/images/events-set21.png" alt="Front" class="image front">
                             <img src="/images/events-set22.png" alt="Back" class="image back">
                         </div>
-                        <p class="hover-message">* Press on the images to swipe</p>
+                        <p class="hover-message">* Click to view the next screen.</p>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -595,7 +595,8 @@
                     </div>
                     <div
                         class="col-md-6 col-4 text-center d-flex align-items-center justify-content-end text-md-end mt-3 mt-md-0 resource-image">
-                        <img src="/images/resources_kol_impact.png" alt="resource_image" class="img-fluid">
+                        <img src="/images/resources_kol_impact.png" alt="resource_image" class="img-fluid"
+                            style="max-width: 90%;">
                     </div>
                 </div>
             </div>
@@ -701,6 +702,16 @@
             },
         });
     </script>
+
+    <script>
+        document.querySelectorAll('.images-container').forEach(container => {
+            container.addEventListener('click', function () {
+                console.log("dinesh");
+                this.classList.toggle('clicked');
+            });
+        });
+    </script>
+
 
 </body>
 

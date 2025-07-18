@@ -659,12 +659,22 @@ background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 60%, 1) 
         width: 80%;
     }
 
-    .images-container:hover .front {
+    /* .images-container:hover .front {
         z-index: 1;
         transform: scale(0.95);
     }
 
     .images-container:hover .back {
+        z-index: 2;
+        transform: scale(1);
+    } */
+
+    .images-container.clicked .front {
+        z-index: 1;
+        transform: scale(0.95);
+    }
+
+    .images-container.clicked .back {
         z-index: 2;
         transform: scale(1);
     }
